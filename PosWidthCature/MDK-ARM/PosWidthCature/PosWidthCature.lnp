@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"poswidthcature\startup_stm32f103xb.o"
+"poswidthcature\main.o"
+"poswidthcature\stm32f1xx_it.o"
+"poswidthcature\stm32f1xx_hal_msp.o"
+"poswidthcature\stm32f1xx_hal_gpio_ex.o"
+"poswidthcature\stm32f1xx_hal_tim.o"
+"poswidthcature\stm32f1xx_hal_tim_ex.o"
+"poswidthcature\stm32f1xx_hal.o"
+"poswidthcature\stm32f1xx_hal_rcc.o"
+"poswidthcature\stm32f1xx_hal_rcc_ex.o"
+"poswidthcature\stm32f1xx_hal_gpio.o"
+"poswidthcature\stm32f1xx_hal_dma.o"
+"poswidthcature\stm32f1xx_hal_cortex.o"
+"poswidthcature\stm32f1xx_hal_pwr.o"
+"poswidthcature\stm32f1xx_hal_flash.o"
+"poswidthcature\stm32f1xx_hal_flash_ex.o"
+"poswidthcature\stm32f1xx_hal_exti.o"
+"poswidthcature\system_stm32f1xx.o"
+--strict --scatter "PosWidthCature\PosWidthCature.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PosWidthCature.map" -o PosWidthCature\PosWidthCature.axf
