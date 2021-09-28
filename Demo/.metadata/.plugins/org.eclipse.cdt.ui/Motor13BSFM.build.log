@@ -1,0 +1,10 @@
+15:13:40 **** Incremental Build of configuration Debug for project Motor13BSFM ****
+make -j8 all 
+arm-none-eabi-size   Motor13BSFM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31120	   1524	   2564	  35208	   8988	Motor13BSFM.elf
+Finished building: default.size.stdout
+ 
+
+15:13:41 Build Finished. 0 errors, 0 warnings. (took 1s.6ms)
+

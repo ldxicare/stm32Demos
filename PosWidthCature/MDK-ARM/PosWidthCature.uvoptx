@@ -173,12 +173,17 @@
         <Ww>
           <count>2</count>
           <WinNumber>1</WinNumber>
-          <ItemText>gPwmDutyf</ItemText>
+          <ItemText>htim4,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>3</count>
           <WinNumber>1</WinNumber>
-          <ItemText>gMotorAngle,0x0A</ItemText>
+          <ItemText>\\PosWidthCature\../Core/Src/main.c\gMotorAngle,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>4</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>\\PosWidthCature\../Core/Src/main.c\gPwmDutyf</ItemText>
         </Ww>
       </WatchWindow1>
       <MemoryWindow1>
@@ -244,6 +249,10 @@
           <Name>System Viewer\TIM3</Name>
           <WinId>35905</WinId>
         </Entry>
+        <Entry>
+          <Name>System Viewer\TIM4</Name>
+          <WinId>35902</WinId>
+        </Entry>
       </SystemViewers>
       <DebugDescription>
         <Enable>1</Enable>
@@ -285,7 +294,7 @@
       <GroupNumber>2</GroupNumber>
       <FileNumber>2</FileNumber>
       <FileType>1</FileType>
-      <tvExp>1</tvExp>
+      <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>../Core/Src/main.c</PathWithFileName>

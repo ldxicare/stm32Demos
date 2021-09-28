@@ -1,4 +1,4 @@
-!SESSION 2021-09-28 11:19:21.092 -----------------------------------------------
+!SESSION 2021-09-28 13:19:06.870 -----------------------------------------------
 eclipse.buildId=Version 1.7.0
 java.version=11.0.10
 java.vendor=AdoptOpenJDK
@@ -6,14 +6,33 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
 Framework arguments:  D:\code\StMtrProject\Motor13BSFM\STM32CubeIDE\.project
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\code\StMtrProject\Motor13BSFM\STM32CubeIDE\.project
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-09-28 11:19:35.240
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-09-28 13:19:26.492
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-09-28 11:19:35.443
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-09-28 13:19:26.819
 !MESSAGE Log4j initialized with config file D:\GitCode\STM32CubeMX\Demo\.metadata\.log4j.xml
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-09-28 11:19:44.684
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-09-28 13:19:39.154
 !MESSAGE Started RMI Server, listening on port 41337
 
-!ENTRY org.eclipse.cdt.core 1 0 2021-09-28 11:20:15.297
-!MESSAGE Indexed 'Motor13BSFM' (63 sources, 155 headers) in 18.8 sec: 14,015 declarations; 83,442 references; 10 unresolved inclusions; 1,549 syntax errors; 5,036 unresolved names (4.9%)
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-28 13:20:03.050
+!MESSAGE Indexed 'Motor13BSFM' (63 sources, 155 headers) in 12.5 sec: 14,015 declarations; 83,442 references; 10 unresolved inclusions; 1,549 syntax errors; 5,036 unresolved names (4.9%)
+!SESSION 2021-09-28 15:12:38.198 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  D:\code\StMtrProject\Motor13BSFM\STM32CubeIDE\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\code\StMtrProject\Motor13BSFM\STM32CubeIDE\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-09-28 15:12:43.360
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-09-28 15:12:43.418
+!MESSAGE Log4j initialized with config file D:\GitCode\STM32CubeMX\Demo\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-09-28 15:12:52.643
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-09-28 15:13:01.679
+!MESSAGE Indexed 'Motor13BSFM' (63 sources, 158 headers) in 7.37 sec: 14,401 declarations; 91,092 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0019%)

@@ -42,6 +42,7 @@ typedef struct MotorAngleStruct
 	uint16_t MecAngle;
 	uint16_t ElAngle;
 	
+	uint16_t Encoder;
 }MotorAngle_t;
 /* USER CODE END ET */
 
