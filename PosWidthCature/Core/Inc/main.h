@@ -37,12 +37,17 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
+typedef struct MotorAngleStruct
+{
+	uint16_t MecAngle;
+	uint16_t ElAngle;
+	
+}MotorAngle_t;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
 /* USER CODE BEGIN EC */
-
+#define POLE_PAIR_NUM 20
 /* USER CODE END EC */
 
 /* Exported macro ------------------------------------------------------------*/
